@@ -1,0 +1,200 @@
+body{
+    background-color: #F1F2F4;
+    margin: 0px;
+    padding: 0px;
+     font-family: "Inter", sans-serif;
+}
+
+body * {
+  background-color: white;
+}
+
+.navbar{
+
+    height: 67px;
+    align-items: center;
+    align-content: center; 
+}
+
+header{
+
+    max-width: 1600px;
+    padding-left: 190px;
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    gap: 32px;
+}
+
+.searchbar{
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #F0F5FF;
+}
+
+
+#input1{
+    font-size: 18px;
+    width: 767px;
+    height: 30px;
+    font-weight: 600;
+    background-color: #F0F5FF;
+    border: 0px;
+    outline: none; 
+}
+
+button{
+    border: 0px;
+}
+
+.fa-regular{
+   
+   color: #888; 
+   font-size: 18px; 
+   margin-right: 5px; 
+   background-color: transparent;
+}
+
+
+.logo{
+   
+    height: 40px;
+}
+
+.login-main{
+    width: 113px;
+    height: 42px; 
+    align-content: center;
+    background-color: transparent;
+    border-radius: 10px;
+    padding-left: 12px;
+}
+
+.login-main:hover{
+    background-color: #2A55E5;
+  ;
+}
+
+.login-main:hover .login a{
+    color: #F0F5FF;
+}
+
+.login-main:hover .arrow{
+    color: white;
+   transform: rotate(180deg);
+   transition: 300ms all ease;
+}
+
+.login-main:hover .fa-regular{
+    color: white;
+}
+
+
+.login{
+    text-align: center;
+    background-color: transparent;
+    position: relative;
+    display: inline-block;
+}
+
+.arrow{
+    font-size: 13px;
+    background-color: transparent;
+}
+
+.login-button{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    background-color: transparent;
+}
+
+.login-dropdown{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    background-color: #FFFFFF;
+}
+
+.signup{
+    padding-left: 90px;
+    color: #2A55E5;
+    background-color: transparent;
+}
+
+
+.dropdown{
+    position: absolute;
+    opacity: 0; 
+    display: none;
+    width: 278px;
+    height: 28px;
+    margin-left: -10px;
+    background-color: white;
+    padding: 10px;
+    border-bottom: 1px solid #E0E0E0;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 12px;
+    
+}
+
+.login-main:hover .dropdown{
+    display: block;
+    opacity: 1;
+}  
+
+ .login-list2{
+    margin-top: -20px;
+    color: black;
+    padding: 3px 3px 2px 10px;
+    width: 200px;
+   
+} 
+ 
+.login-dropdown2{
+    margin-top: 39px;
+    width: 298px;
+    margin-left: -10px;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 3;
+    display: block;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+ 
+.fa-solid{
+    margin-right:15px;
+}
+
+.login-list2 a:hover{
+   background-color: #FAFAFA;
+}
+
+.login:hover .login-list2{
+    display: block;
+ } 
+
+
+
+.login-main:hover .dropdown{
+    display: block ;
+    opacity: 1;
+} 
+
+.cart-button{
+    display: flex;
+    width: 0px;
+    margin: 0px;
+    flex-wrap: nowrap;
+
+}
