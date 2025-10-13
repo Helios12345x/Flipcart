@@ -2,7 +2,7 @@ body{
     background-color: #F1F2F4;
     margin: 0px;
     padding: 0px;
-     font-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 body * {
@@ -43,12 +43,12 @@ header{
     outline: none; 
 }
 
-button{
+.button{
     border: 0px;
 }
 
-.fa-regular{
-   
+/* Serach icon */
+.glass{   
    color: #888; 
    font-size: 18px; 
    margin-right: 5px; 
@@ -62,17 +62,16 @@ button{
 }
 
 .login-main{
-    width: 113px;
+    width: 95px;
     height: 42px; 
     align-content: center;
     background-color: transparent;
     border-radius: 10px;
-    padding-left: 12px;
+    padding-left: 9px;
 }
 
 .login-main:hover{
     background-color: #2A55E5;
-  ;
 }
 
 .login-main:hover .login a{
@@ -80,7 +79,7 @@ button{
 }
 
 .login-main:hover .arrow{
-    color: white;
+   color: white;
    transform: rotate(180deg);
    transition: 300ms all ease;
 }
@@ -90,7 +89,7 @@ button{
 }
 
 
-.login{
+.navcol-right{
     text-align: center;
     background-color: transparent;
     position: relative;
@@ -98,8 +97,9 @@ button{
 }
 
 .arrow{
-    font-size: 13px;
+    font-size: 10px;
     background-color: transparent;
+    padding-left:5px
 }
 
 .login-button{
@@ -134,10 +134,13 @@ button{
     background-color: white;
     padding: 10px;
     border-bottom: 1px solid #E0E0E0;
-    border-radius: 5px;
+    border-radius: 10px 10px 0px 0px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin-top: 12px;
-    
+}
+
+.dropdown span{
+    font-size: 16px;
 }
 
 .login-main:hover .dropdown{
@@ -157,12 +160,11 @@ button{
     margin-top: 39px;
     width: 298px;
     margin-left: -10px;
-    border-radius: 10px;
+    border-radius: 0px 0px 10px 10px;
     font-weight: 400;
     font-size: 14px;
     line-height: 3;
     display: block;
-
 }
 
 a{
@@ -174,6 +176,7 @@ a{
  
 .fa-solid{
     margin-right:15px;
+    border: none;
 }
 
 .login-list2 a:hover{
@@ -191,10 +194,105 @@ a{
     opacity: 1;
 } 
 
-.cart-button{
+.navcol-right{
     display: flex;
-    width: 0px;
-    margin: 0px;
-    flex-wrap: nowrap;
+    align-items: center;
+    gap: 5px;
+}
+
+.cart-button{
+    display:flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.seller-button{
+    display: flex;
+    align-items: center;
+    flex: none;
+    margin-left: 25px;
+    gap: 7px;
+}
+
+.vertical-dots{
+    margin-left: 62px;
+    width: 42px;
+    height: 42px;
+}
+
+
+/* ==========>catagory box css */
+.catagory-box{
+    width: 1600px;
+    height: 126px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: auto;
+    margin-top: 9px;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.catagory{
+  display: flex;
+  flex-direction: column;    
+  align-items: center;      
+  text-align: center;
+  cursor: pointer;
+  
+}
+
+a{
+  
+}
+
+.catagory img {
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 8px;
+  border-radius: 10px; 
+}
+ span {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+  display: block;
+}
+
+.catagory img{
+    height: 64px;
+    width: 64px;
+}
+
+/* Banner Section */
+
+.banners{
+    width: 1600px;
+    height: 265.39px;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.banners img{
+    width: 1600px;
+}
+
+/* Products Section */
+
+.Products-Sec{
+    width: 1330px;
+    height: 373px;
+    margin: auto;
+    margin-top: 15px;
+    
 
 }
